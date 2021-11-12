@@ -1,5 +1,5 @@
 {
-  "name": "F4brizio/laravel-owncloud",
+  "name": "fabrizio/laravel-owncloud",
   "type": "library",
   "description": "Laravel 8 OwnCloud Filesystem",
   "keywords": [
