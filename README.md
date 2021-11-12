@@ -5,7 +5,7 @@
 Via Composer
 
 ``` bash
-$ composer require abdullahhafizh/laravel-owncloud
+$ composer require fabrizio/laravel-owncloud
 ```
 
 ## Usage
