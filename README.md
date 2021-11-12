@@ -41,3 +41,14 @@ Create a owncloud filesystem disk:
 	...
 ];
 ```
+
+Take into account about temporary urls:
+The expiration time is limited by dates, for example, if it expires on "2021-11-13 05:01:01", it will only take into account "2021-11-13". This limitation is inherent to owncloud.
+
+``` php
+Storage::disk('owncloud')->temporaryUrl('file.jpg', now()->addDay()); //Recognized
+Storage::disk('owncloud')->temporaryUrl('file.jpg', now()->addDays(2)); //Recognized
+Storage::disk('owncloud')->temporaryUrl('file.jpg', now()->addMinute()); //Ignored
+Storage::disk('owncloud')->temporaryUrl('file.jpg', now()->addMinutes(5)); //Ignored
+
+```
