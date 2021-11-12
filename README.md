@@ -31,9 +31,11 @@ Create a owncloud filesystem disk:
 	...
 	'owncloud' => [
         'driver'   => 'owncloud',
-        'baseUri'  => 'webdav.url',
+        //example baseUri: 'https://cloud.mydomain.com/remote.php/dav/files/MyCustomUser/'
+        'baseUri'  => 'webdav.url', 
+        //example shareApi: 'https://cloud.mydomain.com/ocs/v1.php/apps/files_sharing/api/v1/shares'
         'shareApi'  => 'something like...ocs/v1.php/apps/files_sharing/api/v1/shares',
-        'userName' => 'secret',
+        'userName' => 'MyCustomUser',
         'password' => 'secret'
     ],
 	...
