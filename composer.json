@@ -1,21 +1,21 @@
 {
-  "name": "abdullahhafizh/laravel-owncloud",
+  "name": "F4brizio/laravel-owncloud",
   "type": "library",
-  "description": "Laravel 7 OwnCloud Filesystem",
+  "description": "Laravel 8 OwnCloud Filesystem",
   "keywords": [
-    "webdav",
+    "owncloud",
     "laravel"
   ],
   "homepage": "https://github.com/abdullahhafizh/laravel-owncloud",
   "license": "MIT",
   "authors": [
       {
-        "name": "Abdullah Hafizh",
-        "email": "abdllhhafizh@gmail.com"
+        "name": "Fabrizio Piminchumo",
+        "email": "f4brizio.21@gmail.com"
       }
   ],
   "require": {
-    "php" : "~7.0",
+    "php" : "^7.2||^8.0",
     "abdullahhafizh/flysystem-owncloud": ">=1.0"
   },
   "autoload": {
