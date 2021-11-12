@@ -16,7 +16,7 @@
   ],
   "require": {
     "php" : "^7.2||^8.0",
-    "abdullahhafizh/flysystem-owncloud": ">=1.0"
+    "fabrizio/flysystem-owncloud": ">=1.0"
   },
   "autoload": {
     "psr-4": {
